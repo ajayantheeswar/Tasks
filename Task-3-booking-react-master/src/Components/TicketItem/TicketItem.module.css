@@ -1,0 +1,39 @@
+.Ticket{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding : 1rem 1rem;
+    border: solid 1.5px purple;
+    margin: 0.3rem auto;
+    border-radius: 10px;
+    max-width:300px;
+}
+
+.Details-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Ticket__item__head{
+    
+}
+
+.Ticket__item__head h4{
+    margin : 0;
+    margin-bottom: 5px;
+}
+.Ticket__item__value p{
+    margin : 0;
+    padding-left: 3rem;
+    margin-bottom: 5px;
+}
+
+.Ticket button{
+    margin-top: 5px;
+    padding : 0.3rem 0.5rem;
+    border : none;
+    border-radius: 0.5rem;
+    background-color: red;
+    color: white;
+    
+}

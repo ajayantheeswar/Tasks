@@ -1,0 +1,59 @@
+.search-result{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 5px rgb(0,0,0,0.5);
+    margin-top: 0.5rem;
+    border-radius: 4px;
+}
+
+.travels-name{
+    display: block;
+    text-align: center;
+}
+
+.trip-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.trip-info__points{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.trip-info__points span{
+    font-weight: bold;
+    padding :0.3rem;
+    text-transform: capitalize;
+}
+.trip-info__timing{
+    display: flex;
+    justify-content: center;
+}
+
+
+.book-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.book-info span{
+    font-weight: bolder;
+    color: rgb(252, 122, 122);
+}
+
+.book-info button{
+    background-color: rgb(74, 25, 139);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding : 0.3rem 1rem;
+    margin-top: 0.3rem;
+}

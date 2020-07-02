@@ -1,0 +1,30 @@
+.Search-container{
+    display: flex;
+    margin: auto;
+    margin-top: 4rem;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+    align-items: center;
+    box-shadow: 0px 0px 10px grey;
+    padding : 1.5rem;
+    border-radius: 10px;
+}
+
+.Search-container input{
+    display: block;
+    padding : 0.5rem 1rem;
+    border: green 1px solid ;
+    font-size: 1.2rem;
+    margin:10px;
+    border-radius: 5px;    
+}
+
+.Search-container button {
+    border: 0;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    background-color: green;
+    color: white;
+
+}

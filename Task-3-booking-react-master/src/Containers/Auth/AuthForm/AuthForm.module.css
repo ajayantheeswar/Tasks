@@ -1,0 +1,56 @@
+.Auth-form {
+    display: flex;
+    padding-top: 5rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.Auth-form input{
+    border-radius: 5px;
+    border: green 1.5px solid;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin: 0.3rem;
+}
+
+.Auth-form button{
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 1.2rem;
+    background-color: rgb(6, 138, 83);
+    font-size: 1rem;
+    color: white;
+}
+
+.Auth-form p{
+    color: blue;
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.Auth-form p.error{
+    border: red 1px solid;
+    background-color: rgb(252, 203, 191);
+    color: red;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.3rem;
+    cursor: auto;
+}
+
+.admin-checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.admin-checkbox p{
+    display: inline-block;
+    margin: 0;
+}

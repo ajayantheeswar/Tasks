@@ -1,0 +1,10 @@
+.Logo{
+    display: block;
+    width: 30px;
+}
+
+.Logo p{
+    height: 100%;
+    padding-left: 2rem ;
+    padding-right: 2rem;
+}

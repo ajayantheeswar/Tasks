@@ -1,0 +1,20 @@
+.Booking-details{
+    padding: 0.4rem;
+    max-width: 300px;
+    border: green 1.2px solid;
+    border-radius: 10px;
+    margin: 0.3rem;
+}
+
+.Booking-details__item{
+    margin: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Booking-details__item h4,
+.Booking-details__item p{
+    margin :0;
+}
+

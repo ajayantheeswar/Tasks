@@ -1,0 +1,52 @@
+POST http://localhost:3001/auth/createCustomer
+Content-Type: application/json
+
+{
+    "name" : "Ajayantheeswar",
+    "email" : "ajaysiva2000@gmail.com",
+    "password" : "qwerty26"
+}
+###
+
+POST http://localhost:3001/customer/gettrip
+Content-Type: application/json
+
+{   
+    "token": "eyJhbGciOiJIUzI1NiJ9.MQ.dQWCSUjNtJ77-m_0kAR-tNLcBK1QoINSbUHczzvwHjA",
+    "busId" : 1,
+    "origin" : "Chennai",
+    "destination" : "Coimbatore",
+    "date" : "6/17/2020, 9:44:58 PM"
+
+    
+}
+###
+POST http://localhost:3001/customer/bookbus
+Content-Type: application/json
+
+{   
+    "token": "eyJhbGciOiJIUzI1NiJ9.MQ.dQWCSUjNtJ77-m_0kAR-tNLcBK1QoINSbUHczzvwHjA",
+    "busId" : 1,
+    "tripId" : 1,
+    "seats" : [
+        {"row" : 2,"column":3},
+        {"row":2,"column" :4}
+    ]
+    
+}
+
+### 
+POST http://localhost:3001/customer/gettickets
+Content-Type: application/json
+
+{   
+    "token": "eyJhbGciOiJIUzI1NiJ9.MQ.dQWCSUjNtJ77-m_0kAR-tNLcBK1QoINSbUHczzvwHjA"    
+}
+###
+POST http://localhost:3001/customer/cancelticket
+Content-Type: application/json
+
+{   
+    "token": "eyJhbGciOiJIUzI1NiJ9.MQ.dQWCSUjNtJ77-m_0kAR-tNLcBK1QoINSbUHczzvwHjA",
+    "ticketId" : 1
+}

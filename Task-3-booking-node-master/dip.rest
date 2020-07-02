@@ -1,0 +1,61 @@
+POST http://localhost:3001/auth/createAdmin
+Content-Type: application/json
+
+{
+    "name" : "ajay",
+    "email" : "Test@gmail.com",
+    "password" : "Value"
+}
+###
+POST http://localhost:3001/admin/addbus
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.MQ.dQWCSUjNtJ77-m_0kAR-tNLcBK1QoINSbUHczzvwHjA",
+    "isAdmin" : true,
+    "businfo": {"busno" : "F",
+    "capacity" : 20,
+    "endpointA" : "chennai",
+    "endpointB" : "coimbatore",
+    "timingA" : "12 - 1",
+    "timingB" : "13-13",
+    "fare" : 200.00
+    }
+}
+###
+POST http://localhost:3001/auth/authAdmin
+Content-Type: application/json
+
+{
+    "email" : "test@test.com",
+    "password" : "p@ssword"
+}
+###
+POST http://localhost:3001/
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.MQ.dQWCSUjNtJ77-m_0kAR-tNLcBK1QoINSbUHczzvwHjA"
+}
+
+###
+POST http://localhost:3001/admin/getbuses
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.Mg.jmqG1TuCQ5KjDY3YwjD6K3poV3DqFktBcNaGvTaQdjM"
+}
+
+###
+
+POST http://localhost:3001/admin/getTripsbybus
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.MQ.dQWCSUjNtJ77-m_0kAR-tNLcBK1QoINSbUHczzvwHjA",
+    "isAdmin" : true,
+    "busno" : "F"
+}
+
+
+

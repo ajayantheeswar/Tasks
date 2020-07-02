@@ -1,0 +1,36 @@
+
+.Seat-Selector{
+    display: flex;
+    justify-content: center;
+    padding:2rem;
+    margin: auto; 
+    max-width: 300px;
+    flex-direction: column;  
+}
+
+.Seat-row{
+    display: flex;
+    justify-content: center;
+    height: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.booked{
+    background-color: grey;
+}
+
+.selected{
+    background-color: green;
+}
+
+.Seat-column{
+    display: block;
+    height: 1rem;
+    width: 1rem;
+    border: 1px solid black;
+   margin-left: 1rem;
+}
+
+.Seat-column.second{
+    margin-right: 1.5rem;
+}

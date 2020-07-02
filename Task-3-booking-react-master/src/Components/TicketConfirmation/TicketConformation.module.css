@@ -1,0 +1,9 @@
+.confirmation{
+    display: flex;
+    flex-direction: column;
+}
+
+.confirmation h2{
+    color: Green;
+    text-align: center;
+}

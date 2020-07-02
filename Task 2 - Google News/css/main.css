@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header-nav {
+  width: 100vw;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 12rem 1fr 10rem;
+  list-style: none;
+  margin-top: 0;
+  padding: 0.5rem 0.3rem;
+  box-shadow: 0px 10px 15px -15px #111;
+}
+.header-nav li {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.header-nav .active {
+  display: none;
+}
+
+.burger-button {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.burger-button div {
+  display: block;
+  background-color: red;
+  width: 1.5rem;
+  height: 0.2rem;
+  margin: 2px;
+}
+
+.home-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+.home-link span {
+  padding-left: 5px;
+  font-size: 1.25rem;
+}
+
+.right-part {
+  justify-self: end;
+  padding: 0.5rem;
+}
+.right-part .image-container {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.3rem;
+  width: 2.5rem;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+}
+.right-part .image-container img {
+  width: 75%;
+}
+.right-part .image-container:hover {
+  background-color: #f0eaea;
+}
+
+#backdrop {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: none;
+}
+
+.side-bar {
+  z-index: 200;
+  position: fixed;
+  width: 60vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.side-bar .side-bar__header {
+  background-color: #ccc;
+  height: 3rem;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 8px;
+}
+.side-bar .side-bar__header img {
+  width: 1rem;
+}
+.side-bar .home-link {
+  display: inline-flex;
+  justify-content: start;
+  margin: 0.5rem 0.3rem;
+  margin-bottom: 2rem;
+}
+.side-bar .topic {
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  margin: 0.5rem;
+  margin-bottom: 0;
+}
+.side-bar .topic span {
+  padding-left: 2rem;
+}
+.side-bar .topic svg {
+  margin-left: 1rem;
+}
+.side-bar .topic.active {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: grey;
+}
+
+.line-break {
+  margin: 1rem 10px;
+  height: 1px;
+  background-color: grey;
+}
+
+/*# sourceMappingURL=main.css.map */

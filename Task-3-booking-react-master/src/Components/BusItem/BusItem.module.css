@@ -1,0 +1,50 @@
+.bus-item{
+    background-color: rgb(235, 236, 238);
+    padding: 0.5rem;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.bus-item:hover{
+    cursor: pointer;
+}
+
+.bus-phy-details{
+    display: flex;
+    justify-content: space-between;
+}
+.bus-id{
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.bus-seat{
+    background-color: rgb(153, 57, 218);
+    color:white;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.bus-endpoints-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.meta-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bus-timing{
+    font-weight: bold;
+    
+}
+.bus-fare{
+    padding: 0.2rem;
+}
+
