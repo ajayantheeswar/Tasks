@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "@types/googlemaps": "^3.39.8",
     "@types/markerclustererplus": "^2.1.33",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "lodash": "^4.17.15",
     "pg": "^8.2.1",
     "pg-hstore": "^2.3.3",
